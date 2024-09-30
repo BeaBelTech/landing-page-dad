@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.flashSales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    margin-block: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.containerProducts {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.containerFeatures {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    margin-block: 5rem;
+    flex-wrap: wrap;
+}
+
+.img_selected {
+    filter: invert(1) brightness(2);
+}
+
+.banner {
+    margin-block: 5rem;
+    width: 1170px;
+}
+
+.footer {
+    background-color: black;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 5rem;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ul>li.title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ul>li {
+    font-size: 13px;
+}
+
+.form {
+    border: 1.5px solid white;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}

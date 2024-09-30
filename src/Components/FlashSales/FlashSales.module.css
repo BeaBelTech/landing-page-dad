@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: end;
+}
+
+.titleWithTimer {
+    display: flex;
+    gap: 80px;
+}
+
+.titulo {
+    justify-self: center;
+}
+
+.timer {
+    justify-self: center;
+}

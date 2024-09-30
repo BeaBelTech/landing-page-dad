@@ -1,0 +1,31 @@
+.header {
+    border-bottom: .5px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 1rem;
+}
+
+.search_icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    padding: 7px 12px 7px 20px;
+    gap: 2.125rem;
+}
+
+.input {
+    width: 11rem;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.input:focus {
+    outline: none;
+}

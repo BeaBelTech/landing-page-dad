@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.home {
+    border-bottom: 1px solid #000;
+}

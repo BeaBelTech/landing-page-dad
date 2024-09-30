@@ -1,0 +1,33 @@
+.fundo {
+    background-color: #000;
+    height: 3rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    margin-left: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+.texto {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.seta {
+    justify-self: center;
+}
+
+.select {
+    background-color: transparent;
+    color: white;   
+    border: none;
+}
